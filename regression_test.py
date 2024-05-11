@@ -5,7 +5,7 @@ import pandas as pd
 from lab2custom import *
 
 # Загружаем данные
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("dataset_0.csv")
 X = df[["x1", "x2"]].values
 y = df["y"].values
 train_size = int(0.8 * len(X))
